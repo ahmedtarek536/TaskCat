@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+}
+:root {
+  --main-color: rgb(0, 140, 155);
+}
+button {
+  padding: 10px 25px;
+  font-size: 20px;
+  border: 0;
+  background-color: black;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+select,
+input {
+  padding: 10px 15px;
+  font-size: 20px;
+  border: 0;
+  border: 2px solid #9f9f9f;
+  color: white;
+  border-radius: 6px;
+  color: black;
+  display: block;
+  outline-color: var(--main-color);
+  width: 100%;
+}
+@media (max-width: 767px) {
+  button {
+    font-size: x-small;
+    padding: 7px 15px;
+  }
+  select,
+  input {
+    padding: 7px 15px;
+    font-size: small;
+  }
+}
+footer {
+  margin-top: 100px;
+  background-color: rgb(0, 140, 155);
+  padding: 40px 20px;
+  width: 100%;
+  height: 10px;
+}
+.table {
+  margin: auto;
+  margin-top: 40px;
+  width: 95%;
+}
+.table h4 {
+  font-size: 3vw;
+  margin: 0;
+  margin-bottom: 15px;
+  margin-top: 35px;
+}
+table {
+  width: 100%;
+  text-align: center;
+}
+table th {
+  font-size: 25px;
+  padding: 10px;
+}
+
+table tbody {
+  background-color: rgba(0, 162, 180, 0.082);
+}
+table td {
+  padding: 15px 10px;
+}

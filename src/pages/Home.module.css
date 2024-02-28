@@ -1,0 +1,35 @@
+.home {
+  width: 85%;
+  margin: auto;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+}
+.home .info {
+  width: 100%;
+}
+.home h2 {
+  font-size: 4vw;
+}
+.home h2 span {
+  color: rgb(0, 140, 155);
+}
+.home p {
+  font-size: 2vw;
+}
+.home button {
+  margin-top: 15px;
+}
+.home img {
+  width: 100%;
+}
+.home input {
+  width: fit-content;
+}
+@media (max-width: 767px) {
+  .home {
+    flex-direction: column;
+  }
+}

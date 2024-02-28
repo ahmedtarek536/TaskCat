@@ -1,0 +1,25 @@
+.header {
+  width: 87%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header button {
+  background-color: rgba(255, 0, 0, 0.029);
+  border: 2px solid rgba(252, 27, 27, 0.838);
+  color: red;
+}
+.header h2 {
+  font-size: 30px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.header h2 span {
+  color: var(--main-color);
+}
+@media (max-width: 767px) {
+  .header button {
+    font-size: x-small;
+    padding: 7px 15px;
+  }
+}

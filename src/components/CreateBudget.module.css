@@ -1,0 +1,16 @@
+.budget {
+  padding: 20px 30px;
+  border-radius: 20px;
+  /* border: 1px solid black; */
+  box-shadow: 2px 2px 10px rgba(60, 60, 60, 0.138);
+  padding-bottom: 30px;
+}
+.budget label {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  display: block;
+}
+.budget button {
+  margin-top: 20px;
+}
